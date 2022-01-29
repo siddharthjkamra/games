@@ -65,6 +65,11 @@ color: #000;
 				color: #9B59B6;
 }
 
+.cat {
+				border-left: 1px solid #c0c0c0;
+				border-right: 1px solid #c0c0c0;
+}
+
 .cat ul {
 				padding: 3px 0px 3px 0px;
 }
@@ -73,6 +78,7 @@ color: #000;
 				border-bottom: 1px solid #9b59b6;
 				color: #9b59b6;
 				padding: 5px;
+			 list-style: none;
 }
 
 .cat li:before {
