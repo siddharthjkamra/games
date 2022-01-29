@@ -1,0 +1,112 @@
+* {
+				margin: 0px;
+}
+
+@font-face {
+				font-family: Poppins;
+				src: url(assets/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: Poppins;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.games {
+				text-align: center;
+				border: 1px solid #c0c0c0;
+}
+
+.games img {
+margin-right:5px
+vertical-align:middle;
+border:1px solid #999;
+padding:1px;
+border-radius:2px;
+width: 90px;
+height: 100px;
+}
+
+.logo {
+				padding: 5px;
+				border-radius: 30px;
+				width: 180px;
+}
+
+h3 {
+text-align:center;
+background:#9B59B6;
+color:#fff;
+border:1px solid #ddd;
+padding:2px;
+}
+
+a {
+text-decoration: none;
+}
+
+span {
+color: #000;
+}
+
+.menu ul {
+				text-align: center;
+				padding: 5px;
+}
+
+.menu li {
+				display: inline-block;
+				background-color: #FFEBEE;
+				margin: 3px;
+				padding: 2px;
+				border: 1px dotted #9B59B6;
+				border-radius: 3px;
+				color: #9B59B6;
+}
+
+.cat ul {
+				padding: 3px 0px 3px 0px;
+}
+
+.cat li {
+				border-bottom: 1px solid #9b59b6;
+				color: #9b59b6;
+				padding: 5px;
+}
+
+.cat li:before {
+				content: url(assets/icon.png);
+				vertical-align: middle;
+}
+
+.footer {
+				background-color: #000000;
+				color: #ffffff;
+				text-align: center;
+}
+
+hr {
+				border: 0.5px solid #eeeeee;
+				margin-top: 3px;
+				margin-bottom: 3px;
+}
+
+.games table {
+				margin-left: auto;
+				margin-right: auto;
+				border-collapse: collapse;
+				width: 70%;
+}
+
+.games table td {
+				border: 1px solid #c0c0c0;
+				text-align: center;
+				padding: 2px;
+}
+
+.games table tr a {
+				border-bottom: 1px solid #dcdcdc;
+				border-right: 1px solid #dcdcdc;
+				font-size: 14px;
+}
