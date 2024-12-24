@@ -4,12 +4,14 @@
       <li onclick="location.href='/how/selection-of-jar.html';">Selection of JAR</li>
       <li>Bookmark this site</li>
     </ul>
-    <div class="header-colored mt-15 mb-8">Recent Games</div>
-    <div class="games">
-      <img src="/cat/SC_CT/SC_CT1.gif" onclick="location.href='cat/splinter-cell.html';"><br>Splinter Cell: Chaos Theory
-      <hr>
-      <img src="/cat/SC_DA/SC_DA1.gif" onclick="location.href='cat/splinter-cell.html';"><br>Splinter Cell: Double Agent
-      <hr>
-      <img src="/cat/SC_PT/SC_PT1.gif" onclick="location.href='cat/splinter-cell.html';"><br>Splinter Cell: Pandora Tomorrow
+    <div class="pc">
+      <div class="header-colored mt-15 mb-8">Recent Games</div>
+      <div class="games">
+        <img src="/cat/SC_CT/SC_CT1.gif" onclick="location.href='cat/splinter-cell.html';"><br>Splinter Cell: Chaos Theory
+        <hr>
+        <img src="/cat/SC_DA/SC_DA1.gif" onclick="location.href='cat/splinter-cell.html';"><br>Splinter Cell: Double Agent
+        <hr>
+        <img src="/cat/SC_PT/SC_PT1.gif" onclick="location.href='cat/splinter-cell.html';"><br>Splinter Cell: Pandora Tomorrow
+      </div>
     </div>
   </div>

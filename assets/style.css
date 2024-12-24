@@ -145,6 +145,28 @@ width: 90px;
 height: 100px;
 }
 
+.games table {
+				margin-left: auto;
+				margin-right: auto;
+				border-collapse: collapse;
+				width: 70%;
+}
+
+.games table td {
+				border: 1px solid #c0c0c0;
+				text-align: center;
+				padding: 4px;
+}
+
+.games table tr a {
+				border-bottom: 1px solid #dcdcdc;
+				border-right: 1px solid #dcdcdc;
+				font-size: 14px;
+}
+.games table tr a:hover {
+  color: darkred;
+}
+
 .cat ul {
   padding: 3px 0px 3px 0px;
 }
@@ -157,8 +179,16 @@ height: 100px;
 }
 
 .cat li:before {
-  content: url(/assets/icon.png);
-  vertical-align: middle;
+  content: '';
+  display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('/assets/icon.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+    vertical-align: middle;
 }
 
 .cat li:hover {
@@ -169,4 +199,10 @@ height: 100px;
 
 .cat li:hover::before {
   filter: brightness(0) invert(1);
+}
+
+@media (max-width: 800px) {
+  .pc {
+    display: none;
+  }
 }
