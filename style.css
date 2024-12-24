@@ -14,12 +14,12 @@ body {
 }
 
 .games {
-				text-align: center;
-				border: 1px solid #c0c0c0;
+  text-align: center;
+  border: 1px solid #c0c0c0;
 }
 
 .games img {
-margin-right:5px
+margin-right:5px;
 vertical-align:middle;
 border:1px solid #999;
 padding:1px;

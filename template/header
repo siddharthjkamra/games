@@ -1,0 +1,3 @@
+<div class="header">
+  <img onclick="location.href='/';" class="logo" src="/assets/jg.png" alt="Classic Games">
+</div>

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Inter", serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.header .logo {
+  width: 100px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0);
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #FFEBEE;
+  color: #9B59B6;
+  border: 1px solid #9B59B6;
+  border-radius: 2px;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+  color: #ffffff;
+  border: 1px solid #0099cc;
+}
+
+.aside {
+  background-color: #9933cc;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #272727;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/* General */
+hr {
+  border: 0.5px solid #eeeeee;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.header-colored {
+text-align:center;
+background:#9933cc;
+color:#fff;
+padding:10px;
+font-weight: bold;
+border-radius: 2px;
+box-shadow: 2px 2px 0 #9B59B6;
+}
+
+/* General P and M */
+.mt-15 {
+  margin-top: 15px;
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+a {
+  text-decoration: none;
+}
+/* Games List */
+.games {
+  text-align: center;
+}
+
+.games img {
+border:1px solid #999;
+padding:1px;
+border-radius:2px;
+width: 90px;
+height: 100px;
+}
+
+.cat ul {
+  padding: 3px 0px 3px 0px;
+}
+
+.cat li {
+  border-bottom: 1px solid #eeeeee;
+  color: blue;
+  padding: 5px;
+  list-style: none;
+}
+
+.cat li:before {
+  content: url(/assets/icon.png);
+  vertical-align: middle;
+}
+
+.cat li:hover {
+  background-color: #272727;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+.cat li:hover::before {
+  filter: brightness(0) invert(1);
+}
