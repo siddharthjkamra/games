@@ -42,14 +42,12 @@ html {
   margin-bottom: 7px;
   background-color: #FFEBEE;
   color: #9B59B6;
-  border: 1px solid #9B59B6;
   border-radius: 2px;
 }
 
 .menu li:hover {
   background-color: #0099cc;
   color: #ffffff;
-  border: 1px solid #0099cc;
 }
 
 .aside {
@@ -132,6 +130,9 @@ box-shadow: 2px 2px 0 #9B59B6;
 a {
   text-decoration: none;
 }
+.mt-pg {
+  margin-top: 22px;
+}
 /* Games List */
 .games {
   text-align: center;
@@ -205,4 +206,13 @@ height: 100px;
   .pc {
     display: none;
   }
+  .col-6, .col-s-9 {
+    padding-top: 0px!important;
+  }
+}
+
+@media (min-width: 800px) {
+  .mt-pg {
+  margin-top: 15px;
+}
 }
