@@ -127,11 +127,18 @@ box-shadow: 2px 2px 0 #9B59B6;
 .mb-8 {
   margin-bottom: 8px;
 }
-a {
-  text-decoration: none;
-}
 .mt-pg {
   margin-top: 22px;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:visited {
+  color: #007bff;
+}
+a:hover {
+  color: #ff5733;
 }
 /* Games List */
 .games {
@@ -147,22 +154,23 @@ height: 100px;
 }
 
 .games table {
-				margin-left: auto;
-				margin-right: auto;
-				border-collapse: collapse;
-				width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 70%;
 }
 
 .games table td {
-				border: 1px solid #c0c0c0;
-				text-align: center;
-				padding: 2px;
+  border: 1px solid #c0c0c0;
+  text-align: center;
+  padding: 2px;
 }
 
 .games table tr a {
-				border-bottom: 1px solid #dcdcdc;
-				border-right: 1px solid #dcdcdc;
-				font-size: 14px;
+  border-bottom: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  font-size: 14px;
+  color: #0051a8;
 }
 .games table tr a:hover {
   color: darkred;
@@ -174,7 +182,7 @@ height: 100px;
 
 .cat li {
   border-bottom: 1px solid #eeeeee;
-  color: blue;
+  color: #007bff;
   padding: 5px;
   list-style: none;
 }
